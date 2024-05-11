@@ -1,0 +1,41 @@
+#heading{
+    font-size: 3.3rem;
+    background-image: url(../../../public/assets/fireBack.webp);
+    background-size: contain;
+    font-weight: 900;
+    background-clip: text;
+    font-family: 'segoe ui black';
+    color: transparent;
+}
+
+#img{
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    box-shadow: 0 0 40px white, 0 0 50px white;
+}
+
+h2{
+    font-size: 3rem; 
+    text-shadow: 0 0 10px grey, 0 0 20px grey, 0 0 30px grey;
+}
+
+.getStarted button{
+    border-radius: 1rem;
+    border: 0px solid;
+    font-weight: 600;
+    background: linear-gradient(45deg, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+    cursor: pointer;
+    transition: 1s;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    transform: scale(2.5);
+}
+
+.getStarted button:hover{
+    transform: scale(3);
+}
+
+.getStarted button:focus{
+    background: linear-gradient(135deg, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+}

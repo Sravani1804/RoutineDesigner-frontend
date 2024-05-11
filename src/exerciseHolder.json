@@ -1,0 +1,28 @@
+{
+    "Abs" : [
+        {
+            "name" : "Plank",
+            "img" : "https://i.pinimg.com/originals/cf/b5/67/cfb5677a755fe7288b608a4fec6f09a0.gif"
+        },
+        {
+            "name" : "Russian Twists",
+            "img" : "https://hw.qld.gov.au/wp-content/uploads/2015/07/25_M_WIP02.gif"
+        },
+        {
+            "name" : "Bicycle Crunches",
+            "img" : "https://gifdb.com/images/high/man-in-blue-doing-bicycle-crunches-exercise-bf3rojluw43kjlr2.gif"
+        },
+        {
+            "name" : "Leg Raises",
+            "img" : "https://i.pinimg.com/originals/7f/c3/f2/7fc3f27ab2da867ddfdfe87f204f93e5.gif"
+        },
+        {
+            "name" : "Mountain Climbers",
+            "img" : "https://i.pinimg.com/originals/18/27/be/1827be178c019b1dc6f8a8d8b4a7b0b8.gif"
+        },
+        {
+            "name" : "Reverse Crunches",
+            "img" : "https://www.healthynexercise.com/wp-content/uploads/2022/04/How-to-do-a-reverse-crunch.gif"
+        }
+    ]
+}

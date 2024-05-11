@@ -1,0 +1,47 @@
+.timer h1{
+    color: white;
+    font-size: 4rem;
+    background: rgba(0, 0, 0, 0.904);
+    width: fit-content;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    font-weight: 400;
+}
+
+.timer h2{
+    font-size: 2rem;
+}
+
+#finish{
+    background: white;
+    border: solid 1px black;
+    width: fit-content;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 900;
+    border-radius: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#finish:hover{
+    background: black;
+    color: white;
+}
+
+.timer img{
+    position: absolute;
+    top: 10rem;
+    width: 40%;
+    height: 60%;
+}
+
+#wexer{
+    right: 0;
+    width: 35%;
+    transform: scale(-1, 1);
+}

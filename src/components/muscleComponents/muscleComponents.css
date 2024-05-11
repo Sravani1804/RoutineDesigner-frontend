@@ -1,0 +1,54 @@
+.divHolder{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(.25rem);
+    background: transparent;
+    backdrop-filter: blur(.25rem);
+}
+
+.divHolder img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.itemHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item img{
+    transform: scale(0);
+    width: 250px;
+    height: 250px;
+    transition: 1s linear ;
+    border-radius: 50px;
+}
+
+.item:hover img{
+    transform: scale(1);
+}
+
+.item button{
+    position: relative;
+    top: -125px;
+    transition: 1.5s;
+    border: 1px solid;
+    transform: scale(3);
+    background: black;
+    border-radius: 50px;
+    color: white;
+    transform-origin: top;
+}
+
+.item:hover button{
+    top: -10px;
+    transform: scale(1.5);
+    color: black;
+    background: white;
+}

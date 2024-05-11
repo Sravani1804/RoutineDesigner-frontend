@@ -1,0 +1,58 @@
+h1{
+    font-size:3rem; 
+    color: black;
+}
+
+.container{
+    margin: 6.5rem;
+    padding: 2rem;
+    border-radius: 50px;
+    background: transparent;
+    backdrop-filter: blur(90px);
+    border: 2px solid black ;
+    transform: scale(1.6);
+    font-size: 25;
+    justify-content: center;
+    text-align: center;
+}
+
+.container a{
+    text-decoration: none;
+    color:white;
+}
+
+.container p{
+    transition: .5s;
+    border-radius: 50px;
+    transform-origin: center;
+    color: black;
+    font-weight: 900;
+    text-shadow: 0 10px 10px blue;
+    font-size: 1rem;
+}
+
+.container p:hover{
+    text-shadow: 0 0 0;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+
+.choice img{
+    position: absolute;
+}
+
+#choosing{
+    top: 10rem;
+    width: 30%;
+    right: 0;
+    height: 20rem;
+}
+
+#selecting{
+    top: 10rem;
+    width: 30%;
+    left: 5rem;
+}
