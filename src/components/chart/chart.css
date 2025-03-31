@@ -9,9 +9,10 @@ table{
 .tableContainer{
     position: absolute;
     right: 1rem;
-    bottom: 1rem;
+    bottom: 6.5rem;
     overflow-y: scroll;
     height: 95%;
+    height: fit-content;
 }
 
 td{

@@ -24,5 +24,320 @@
             "name" : "Reverse Crunches",
             "img" : "https://www.healthynexercise.com/wp-content/uploads/2022/04/How-to-do-a-reverse-crunch.gif"
         }
+    ],
+    
+    "Biceps": [
+        {
+            "name": "Bicep Curls",
+            "img": "https://fitnessprogramer.com/wp-content/uploads/2022/02/Band-Biceps-Curl.gif"
+        },
+        {
+            "name": "Hammer Curls",
+            "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Hammer-Curl.gif"
+        },
+        {
+            "name": "Concentration Curls",
+            "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Concentration-Curl.gif"
+        }
+    ],
+    "Triceps": [
+        {
+            "name": "Tricep Dips",
+            "img": "https://i.pinimg.com/originals/71/a5/8f/71a58fff86280c49002e0149f8cea3a4.gif"
+        },
+        {
+            "name": "Overhead Tricep Extension",
+            "img": "https://149874912.v2.pressablecdn.com/wp-content/uploads/2020/04/cable-rope-overhead-triceps-extension.gif"
+        },
+        {
+            "name": "Tricep Kickbacks",
+            "img": "https://post.healthline.com/wp-content/uploads/2019/05/HonoredFamousIbex-size_restricted.gif"
+        }
+    ],
+    "Deltoids": [
+        {
+            "name": "Lateral Raises",
+            "img": "https://cdn.jefit.com/assets/img/exercises/gifs/32.gif"
+        },
+        {
+            "name": "Front Raises",
+            "img": "https://149874912.v2.pressablecdn.com/wp-content/uploads/2020/03/Dumbbell-Front-Raise.gif"
+        },
+        {
+            "name": "Arnold Press",
+            "img": "https://media.tenor.com/ZR-_3Mxq0gYAAAAM/arnold-press.gif"
+        }
+    ],
+    "Chest": [
+        {
+            "name": "Push-Ups",
+            "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/workouts/2016/12/bandpushup-1480692013.gif"
+        },
+        {
+            "name": "Chest Press",
+            "img": "https://images.squarespace-cdn.com/content/v1/54f9e84de4b0d13f30bba4cb/1525881176260-YJD6JDG15GZPB72R5XCO/cable+chest+press.gif"
+        },
+        {
+            "name": "Incline Bench Press",
+            "img": "https://i.pinimg.com/originals/f4/72/94/f47294c0af7d4dc0e55b83a6ce56167b.gif"
+        }
+    ],
+    "Spine Muscles": [
+        {
+            "name": "Deadlifts",
+            "img": "https://www.journalmenu.com/wp-content/uploads/2018/03/deadlift-gif-oblique.gif"
+        },
+        {
+            "name": "Superman Stretch",
+            "img": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/03/400x400-Superman.gif?h=840"
+        },
+        {
+            "name": "Good Mornings",
+            "img": "https://cdn.shopify.com/s/files/1/0449/8453/3153/files/Good-Morning.gif?v=1726716609"
+        }
+    ],
+    "Back": [
+        {
+            "name": "Pull-Ups",
+            "img": "https://media.self.com/photos/66048a99c8ee61754bbe3db9/master/w_320%2Cc_limit/Landyn-pull-up.gif"
+        },
+        {
+            "name": "Bent-Over Rows",
+            "img": "https://hips.hearstapps.com/hmg-prod/images/workouts/2017/04/barbellrow-1491916911.gif?crop=1xw:1xh;center,top&resize=1200:*"
+        },
+        {
+            "name": "Lat Pulldowns",
+            "img": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/02/400x400_How_To_Do_The_Lat_Pull_Down_Lat_Pull_Down.gif?h=840"
+        }
+    ],
+    "Running": [
+        {
+            "name": "Interval Sprints",
+            "img": "https://i.pinimg.com/originals/cd/51/26/cd5126eff8572af57bd33219712337f7.gif"
+        },
+        {
+            "name": "Hill Running",
+            "img": "https://media.tenor.com/_dgxWmviPy0AAAAM/darshan-raval-darshan.gif"
+        },
+        {
+            "name": "Treadmill Running",
+            "img": "https://cdn-life.dailyburn.com/life/wp-content/uploads/2017/02/10034043/Sprint.gif"
+        },
+        {
+            "name": "Stair Climbing",
+            "img": "https://i.pinimg.com/originals/25/ec/1f/25ec1fa4217c64b11c4079d8be5c4b24.gif"
+        },
+        {
+            "name": "Trail Running",
+            "img": "https://higherrunning.com/wp-content/uploads/2024/04/unnamed.gif"
+        }
+    ],
+    "Walking": [
+        {
+            "name": "Power Walking",
+            "img": "https://www.sparkpeople.com/assets/exercises/Forward-Lunges.gif"
+        },
+        {
+            "name": "Brisk Walking",
+            "img": "https://media.tenor.com/SUqdflG1XvcAAAAM/brisk-walking.gif"
+        },
+        {
+            "name": "Walking Lunges",
+            "img": "https://i.pinimg.com/originals/52/74/c1/5274c1584e60a6d5a05076e9b61f2bc5.gif"
+        }
+    ],
+    "Cycling": [
+        {
+            "name": "Indoor Cycling",
+            "img": "https://cdn.shopify.com/s/files/1/2074/9385/files/PerformanceBlog_IndoorCycling_Resistance-Knob_1024x1024.gif?v=1644534487"
+        },
+        {
+            "name": "Road Cycling",
+            "img": "https://i.pinimg.com/originals/aa/7e/f5/aa7ef52477e4cc57dbc9ed7ed8111904.gif"
+        },
+        {
+            "name": "Mountain Biking",
+            "img": "https://spokemagazine.com/wp-content/uploads/2024/07/GIF-3-Slow.gif"
+        },
+        {
+            "name": "Interval Cycling",
+            "img": "https://liftmanual.com/wp-content/uploads/2023/04/cycle-cross-trainer.gif"
+        },
+        {
+            "name": "Long-Distance Cycling",
+            "img": "https://media.tenor.com/48QV-hDJRioAAAAM/flufworld-fluf.gif"
+        }
+    ],
+    "Swimming": [
+        {
+            "name": "Freestyle Swimming",
+            "img": "https://i.pinimg.com/originals/1f/37/7a/1f377a713044a0a3ff47410b5fe07561.gif"
+        },
+        {
+            "name": "Breaststroke",
+            "img": "https://blog.arenaswim.com/wp-content/uploads/2019/07/ARENA_breaststroke_blog.gif"
+        },
+        {
+            "name": "Backstroke",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7I2ROLaYih8_ckUnTphkDLYWZpT6QYm2ZIg&s"
+        },
+        {
+            "name": "Butterfly Stroke",
+            "img": "https://www.arenaswim.com/media/immagini/268_z_butterfly_Swim.gif?width=1200&height=630&mode=crop"
+        },
+        {
+            "name": "Sidestroke",
+            "img": "https://i.pinimg.com/originals/92/2e/d8/922ed89dba1558db4149d3b7f51d17eb.gif"
+        }
+    ],
+    "Jump Rope": [
+        {
+            "name": "Basic Jump",
+            "img": "https://www.spotebi.com/wp-content/uploads/2014/10/jump-rope-exercise-illustration.gif"
+        },
+        {
+            "name": "High Knees Jump",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOROp9C__quv90LXd2AYVTAeN8JMpGZpIRHg&s"
+        },
+        {
+            "name": "Side-to-Side Jump",
+            "img": "https://lh4.googleusercontent.com/8zPiv2Bps7TCF8cLWZ-jstvb5tSHEGSrguPO2gzmWOf3riETRbu8JxP8vO8t77unMSp_V2uzn_fU39-tHj8tRJ4szMpu4nltzeezycIPCrgXDdYg52_HlXjJsqtiSLWEayNFhcI"
+        },
+        {
+            "name": "Criss-Cross Jump",
+            "img": "https://www.sheknows.com/wp-content/uploads/2018/08/0-jog_swgsa6.gif"
+        },
+        {
+            "name": "Speed Jump",
+            "img": "https://media.tenor.com/AROJfv8rXaUAAAAM/station19-maya-bishop.gif"
+        }
+    ],
+    "Dancing": [
+        {
+            "name": "Zumba",
+            "img": "https://media.tenor.com/LVUkkzdJ1CgAAAAM/daily-burn-dance.gif"
+        },
+        {
+            "name": "Hip Hop Dance",
+            "img": "https://media.tenor.com/E7aWJLUTGOsAAAAM/mark-dance.gif"
+        },
+        {
+            "name": "Salsa",
+            "img": "https://media.tenor.com/ojMyb49g6bUAAAAM/disco-dancing-skirt-twirl.gif"
+        }
+    ],
+    "Quadriceps": [
+        {
+            "name": "Squats",
+            "img": "https://media.self.com/photos/624c7b566bcc4d90100f56f0/master/w_320%2Cc_limit/Gail-jump-squat.gif"
+        },
+        {
+            "name": "Leg Press",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZa2Zli_GYfVqDcvHigGmz-tGRi9SvXicYxw&s"
+        },
+        {
+            "name": "Lunges",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9qBxLQJd0wJVJfqZRYGov_bVRv2t62N1EeQ&s"
+        }
+    ],
+    "Calves": [
+        {
+            "name": "Calf Raises",
+            "img": "https://i.pinimg.com/originals/71/58/dc/7158dc3b232bb7b0a9a07b17f87af49b.gif"
+        },
+        {
+            "name": "Seated Calf Raise",
+            "img": "https://musclemagfitness.com/wp-content/uploads/lever-seated-calf-raise-exercise.gif"
+        },
+        {
+            "name": "Jump Squats",
+            "img": "https://media1.popsugar-assets.com/files/thumbor/_08z9oVDWdgqyNiFDq4a1GNZE4c/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2021/08/20/694/n/1922729/177a7e1092867a90_squatjump/i/Squat-Jump.GIF"
+        }
+    ],
+    "Glutes": [
+        {
+            "name": "Hip Thrusts",
+            "img": "https://cdn.shopify.com/s/files/1/0618/9462/3460/files/2_2021-04.gif"
+        },
+        {
+            "name": "Glute Kickbacks",
+            "img": "https://cdn.jefit.com/assets/img/exercises/gifs/387.gif"
+        },
+        {
+            "name": "Step-Ups",
+            "img": "https://www.verywellfit.com/thmb/MhsAJrNNbv_hRW3LcixX7QUSNgE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/67-3120001-weighted-step-upGIF-cd8bfccdc7ce441282e45529e7e0b392.gif"
+        }
+    ],
+    "Hamstrings": [
+        {
+            "name": "Romanian Deadlifts",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgY2Nvp_2yEE3pXBj7_wHuZFpCMSaMwaXXaQ&s"
+        },
+        {
+            "name": "Hamstring Curls",
+            "img": "https://cdn.shopify.com/s/files/1/0618/9462/3460/files/45-3498304-Leg-Curls-GIF-aa13a58de5a744719617eb7155357877.gif"
+        },
+        {
+            "name": "Glute Bridge",
+            "img": "https://i.pinimg.com/originals/9c/43/48/9c4348c308e6847c99019c511ffee41a.gif"
+        }
+    ],
+    "Legs": [
+        {
+            "name": "Bulgarian Split Squats",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNeoOoj0ZMq7CMN03xEmrtASjus8l-PWLxKg&s"
+        },
+        {
+            "name": "Wall Sits",
+            "img": "https://www.vissco.com/wp-content/uploads/animation/sub/wall-squat.gif"
+        },
+        {
+            "name": "Jump Lunges",
+            "img": "https://www.verywellfit.com/thmb/NaA0d4It6NgMsvYdLPHAMQCk23c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/69-3119998-Jump-Lunge-GIF-df2c0847f8c14a609380f3b89eb855b1.gif"
+        }
+    ],
+    "Ankles": [
+        {
+            "name": "Ankle Circles",
+            "img": "https://cdn.jefit.com/assets/img/exercises/gifs/289.gif"
+        },
+        {
+            "name": "Toe Raises",
+            "img": "https://www.vissco.com/wp-content/uploads/animation/sub/great-toe-extension-stretch.gif"
+        },
+        {
+            "name": "Heel Walks",
+            "img": "https://www.vissco.com/wp-content/uploads/animation/sub/heel-walk.gif"
+        },
+        {
+            "name": "Single Leg Balance",
+            "img": "https://www.vissco.com/wp-content/uploads/animation/sub/single-leg-stand-on-1-pillow-reaching-with-other-leg.gif"
+        },
+        {
+            "name": "Resistance Band Stretch",
+            "img": "https://www.vissco.com/wp-content/uploads/animation/sub/theraband-plantarflexion-with-knee-extended.gif"
+        },
+        {
+            "name": "Ankle Flexion and Extension",
+            "img": "https://media.post.rvohealth.io/wp-content/uploads/2023/08/MadUnpleasantKangaroo-size_restricted.gif"
+        }
+    ],
+    "Arm": [
+       {
+           "name": "Bicep Curls",
+           "img": "https://hips.hearstapps.com/menshealth-uk/main/assets/hammer-curl.gif?resize=640:*"
+       },
+       {
+           "name": "Tricep Dips",
+           "img": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2021_16/1706107/tricepdip.gif"
+       },
+       {
+           "name": "Overhead Tricep Extension",
+           "img": "https://149874912.v2.pressablecdn.com/wp-content/uploads/2020/04/cable-rope-overhead-triceps-extension.gif"
+        },
+        {
+           "name": "Arm Circles",
+           "img": "https://cdn.jefit.com/assets/img/exercises/gifs/867.gif"
+        }
     ]
 }

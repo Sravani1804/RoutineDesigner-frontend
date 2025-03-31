@@ -27,13 +27,13 @@
     },
     {
         "name": "Arm",
-        "img" : "https://kinxlearning.com/cdn/shop/files/shutterstock_489727177_600x.jpg?v=1691028212",
+        "img" : "https://www.kettlebellkings.com/cdn/shop/articles/Arms_exercises.webp?v=1726219286",
         "next" : "Arm"        
     },
     {
-        "name" : "Erector Spinae",
+        "name" : "Spine Muscles",
         "img" : "https://www.shoulder-pain-explained.com/images/trapezius-pain.jpg",
-        "next" : "Erector Spinae"        
+        "next" : "Spine Muscles"        
     },
     {
         "name" : "Back",
@@ -65,12 +65,12 @@
     }, 
     {
         "name" : "Legs",
-        "img" : "https://static.toiimg.com/thumb/98390648.cms?width=680&height=512&imgsize=475056",
+        "img" : "https://www.ergo-fit.de/fileadmin/user_upload/LegFlexion_M%C3%A4nnchen.png",
         "next" : "Legs"
     }, 
     {
         "name" : "Ankles",
-        "img" : "https://static.toiimg.com/thumb/98390648.cms?width=680&height=512&imgsize=475056",
+        "img" : "https://drschoene.com/wp-content/uploads/2021/12/41424057624_8f3421d5a0.jpg",
         "next" : "Ankles"
     }
   ],
@@ -78,26 +78,32 @@
  "cardio" : [
     {
         "name" : "Running",
+        "next" : "Running",
         "img" : "https://hips.hearstapps.com/hmg-prod/images/running-is-one-of-the-best-ways-to-stay-fit-royalty-free-image-1036780592-1553033495.jpg?resize=1200:*"
     },
     {
         "name" : "Walking",
+        "next" : "Walking",
         "img" : "https://www.geelongmedicalgroup.com.au/wp-content/uploads/2018/01/man-walking-1024x651.jpg"
     },
     {
         "name" : "Cycling",
+        "next" : "Cycling",
         "img" : "https://static.toiimg.com/photo/85201540.cms"
     },
     {
         "name" : "Swimming",
+        "next" : "Swimming",
         "img" : "https://images.unsplash.com/photo-1600965962102-9d260a71890d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "name" : "Jump Rope",
+        "next" : "Jump Rope",
         "img" : "https://www.stylecraze.com/wp-content/uploads/2014/07/Is-Rope-Jumping-Good-For-Health-Benefits-And-Precautions.jpg"
     },
     {
         "name" : "Dancing",
+    "next" : "Dancing",
         "img" : "https://images.unsplash.com/photo-1523450001312-faa4e2e37f0f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFuY2luZ3xlbnwwfHwwfHx8MA%3D%3D"
     }
   ]

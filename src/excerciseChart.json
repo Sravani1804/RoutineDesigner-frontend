@@ -1,58 +1,717 @@
 {
-    "Abs" : [
+    "Abs": [
         {
-            "name" : "plank",
-            "brep" : "",
-            "bset" : "",
-            "irep" : "",
-            "iset" : "",
-            "erep" : "",
-            "eset" : ""
+            "name": "Plank",
+            "brep": "40 sec",
+            "bset": "3",
+            "irep": "50 sec",
+            "iset": "3",
+            "erep": "60 sec",
+            "eset": "4"
         },
         {
-            "name" : "Russian Twists",
-            "brep" : "",
-            "bset" : "",
-            "irep" : "",
-            "iset" : "",
-            "erep" : "",
-            "eset" : ""
+            "name": "Russian Twists",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
         },
         {
-            "name" : "Bicycle Crunches",
-            "brep" : "",
-            "bset" : "",
-            "irep" : "",
-            "iset" : "",
-            "erep" : "",
-            "eset" : ""
+            "name": "Bicycle Crunches",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
         },
         {
-            "name" : "Leg Raises",
-            "brep" : "",
-            "bset" : "",
-            "irep" : "",
-            "iset" : "",
-            "erep" : "",
-            "eset" : ""
+            "name": "Leg Raises",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
         },
         {
-            "name" : "Mountain Climbers",
-            "brep" : "",
-            "bset" : "",
-            "irep" : "",
-            "iset" : "",
-            "erep" : "",
-            "eset" : ""
+            "name": "Mountain Climbers",
+            "brep": "20 reps",
+            "bset": "3",
+            "irep": "30 reps",
+            "iset": "3",
+            "erep": "40 reps",
+            "eset": "4"
         },
         {
-            "name" : "Reverse Crunches",
-            "brep" : "",
-            "bset" : "",
-            "irep" : "",
-            "iset" : "",
-            "erep" : "",
-            "eset" : ""
+            "name": "Reverse Crunches",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Biceps": [
+        {
+            "name": "Bicep Curls",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Hammer Curls",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Concentration Curls",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Triceps": [
+        {
+            "name": "Tricep Dips",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Overhead Tricep Extension",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Tricep Kickbacks",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Deltoids": [
+        {
+            "name": "Lateral Raises",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Front Raises",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Arnold Press",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Chest": [
+        {
+            "name": "Push-Ups",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Chest Press",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Incline Bench Press",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Spine Muscles": [
+        {
+            "name": "Deadlifts",
+            "brep": "8 reps",
+            "bset": "3",
+            "irep": "12 reps",
+            "iset": "3",
+            "erep": "15 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Superman Stretch",
+            "brep": "30 sec",
+            "bset": "3",
+            "irep": "45 sec",
+            "iset": "3",
+            "erep": "60 sec",
+            "eset": "4"
+        },
+        {
+            "name": "Good Mornings",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Back": [
+        {
+            "name": "Pull-Ups",
+            "brep": "5 reps",
+            "bset": "3",
+            "irep": "8 reps",
+            "iset": "3",
+            "erep": "12 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Bent-Over Rows",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Lat Pulldowns",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Running": [
+        {
+            "name": "Interval Sprints",
+            "brep": "30 sec sprint, 30 sec rest",
+            "bset": "5",
+            "irep": "45 sec sprint, 30 sec rest",
+            "iset": "7",
+            "erep": "60 sec sprint, 30 sec rest",
+            "eset": "10"
+        },
+        {
+            "name": "Hill Running",
+            "brep": "10 min uphill",
+            "bset": "2",
+            "irep": "15 min uphill",
+            "iset": "3",
+            "erep": "20 min uphill",
+            "eset": "4"
+        },
+        {
+            "name": "Treadmill Running",
+            "brep": "10 min",
+            "bset": "2",
+            "irep": "15 min",
+            "iset": "3",
+            "erep": "20 min",
+            "eset": "4"
+        },
+        {
+            "name": "Stair Climbing",
+            "brep": "10 min",
+            "bset": "2",
+            "irep": "15 min",
+            "iset": "3",
+            "erep": "20 min",
+            "eset": "4"
+        },
+        {
+            "name": "Trail Running",
+            "brep": "10 min",
+            "bset": "2",
+            "irep": "20 min",
+            "iset": "3",
+            "erep": "30 min",
+            "eset": "4"
+         }
+    ],
+    "Walking": [
+        {
+            "name": "Power Walking",
+            "brep": "10 min",
+            "bset": "2",
+            "irep": "15 min",
+            "iset": "3",
+            "erep": "20 min",
+            "eset": "4"
+        },
+        {
+            "name": "Brisk Walking",
+            "brep": "10 min",
+            "bset": "2",
+            "irep": "20 min",
+            "iset": "3",
+            "erep": "30 min",
+            "eset": "4"
+        },
+        {
+            "name": "Walking Lunges",
+            "brep": "10 reps",
+            "bset": "2",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Cycling": [
+        {
+            "name": "Indoor Cycling",
+            "brep": "10 min",
+            "bset": "2",
+            "irep": "20 min",
+            "iset": "3",
+            "erep": "30 min",
+            "eset": "4"
+        },
+        {
+            "name": "Road Cycling",
+            "brep": "5 km",
+            "bset": "2",
+            "irep": "10 km",
+            "iset": "3",
+            "erep": "15 km",
+            "eset": "4"
+        },
+        {
+            "name": "Mountain Biking",
+            "brep": "5 km",
+            "bset": "2",
+            "irep": "10 km",
+            "iset": "3",
+            "erep": "15 km",
+            "eset": "4"
+        },
+        {
+            "name": "Interval Cycling",
+            "brep": "30 sec fast, 30 sec slow",
+            "bset": "5",
+            "irep": "45 sec fast, 30 sec slow",
+            "iset": "7",
+            "erep": "60 sec fast, 30 sec slow",
+            "eset": "10"
+        },
+        {
+            "name": "Long-Distance Cycling",
+            "brep": "20 km",
+            "bset": "1",
+            "irep": "30 km",
+            "iset": "1",
+            "erep": "40 km",
+            "eset": "1"
+        }
+    ],
+    "Swimming": [
+        {
+            "name": "Freestyle Swimming",
+            "brep": "10 laps",
+            "bset": "2",
+            "irep": "15 laps",
+            "iset": "3",
+            "erep": "20 laps",
+            "eset": "4"
+        },
+        {
+            "name": "Breaststroke",
+            "brep": "10 laps",
+            "bset": "2",
+            "irep": "15 laps",
+            "iset": "3",
+            "erep": "20 laps",
+            "eset": "4"
+        },
+        {
+            "name": "Backstroke",
+            "brep": "10 laps",
+            "bset": "2",
+            "irep": "15 laps",
+            "iset": "3",
+            "erep": "20 laps",
+            "eset": "4"
+        },
+        {
+            "name": "Butterfly Stroke",
+            "brep": "5 laps",
+            "bset": "2",
+            "irep": "10 laps",
+            "iset": "3",
+            "erep": "15 laps",
+            "eset": "4"
+        },
+        {
+            "name": "Sidestroke",
+            "brep": "10 laps",
+            "bset": "2",
+            "irep": "15 laps",
+            "iset": "3",
+            "erep": "20 laps",
+            "eset": "4"
+        }
+    ],
+    "Jump Rope": [
+        {
+            "name": "Basic Jump",
+            "brep": "30 sec",
+            "bset": "3",
+            "irep": "45 sec",
+            "iset": "3",
+            "erep": "60 sec",
+            "eset": "4"
+        },
+        {
+            "name": "High Knees Jump",
+            "brep": "30 sec",
+            "bset": "3",
+            "irep": "45 sec",
+            "iset": "3",
+            "erep": "60 sec",
+            "eset": "4"
+        },
+        {
+            "name": "Side-to-Side Jump",
+            "brep": "30 sec",
+            "bset": "3",
+            "irep": "45 sec",
+            "iset": "3",
+            "erep": "60 sec",
+            "eset": "4"
+        },
+        {
+            "name": "Criss-Cross Jump",
+            "brep": "30 sec",
+            "bset": "3",
+            "irep": "45 sec",
+            "iset": "3",
+            "erep": "60 sec",
+            "eset": "4"
+        },
+        {
+            "name": "Speed Jump",
+            "brep": "30 sec",
+            "bset": "3",
+            "irep": "45 sec",
+            "iset": "3",
+            "erep": "60 sec",
+            "eset": "4"
+        }
+    ],
+    "Dancing": [
+        {
+            "name": "Zumba",
+            "brep": "10 min",
+            "bset": "2",
+            "irep": "15 min",
+            "iset": "3",
+            "erep": "20 min",
+            "eset": "4"
+        },
+        {
+           "name": "Hip Hop Dance",
+           "brep": "10 min",
+           "bset": "2",
+           "irep": "15 min",
+           "iset": "3",
+           "erep": "20 min",
+           "eset": "4"
+        }, 
+        {
+           "name": "Salsa",
+            "brep": "10 min",
+            "bset": "2",
+            "irep": "15 min",
+            "iset": "3",
+            "erep": "20 min",
+            "eset": "4"
+        }
+    ],
+    "Quadriceps": [
+        {
+            "name": "Squats",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Leg Press",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Lunges",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Calves": [
+        {
+            "name": "Calf Raises",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Seated Calf Raise",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Jump Squats",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Glutes": [
+        {
+            "name": "Hip Thrusts",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Glute Kickbacks",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Step-Ups",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Hamstrings": [
+        {
+            "name": "Romanian Deadlifts",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Hamstring Curls",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Glute Bridge",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
+        }
+    ],
+    "Legs": [
+        {
+            "name": "Bulgarian Split Squats",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Wall Sits",
+            "brep": "30 sec",
+            "bset": "3",
+            "irep": "45 sec",
+            "iset": "3",
+            "erep": "60 sec",
+            "eset": "4"
+        },
+        {
+            "name": "Jump Lunges",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        }
+    ],
+    "Ankles": [
+        {
+            "name": "Ankle Circles",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Toe Raises",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Heel Walks",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Single Leg Balance",
+            "brep": "30 sec",
+            "bset": "3",
+            "irep": "45 sec",
+            "iset": "3",
+            "erep": "60 sec",
+            "eset": "4"
+        },
+        {
+            "name": "Resistance Band Stretch",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Ankle Flexion and Extension",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
+        }
+    ],
+    "Arm": [
+        {
+            "name": "Bicep Curls",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Tricep Dips",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Overhead Tricep Extension",
+            "brep": "10 reps",
+            "bset": "3",
+            "irep": "15 reps",
+            "iset": "3",
+            "erep": "20 reps",
+            "eset": "4"
+        },
+        {
+            "name": "Arm Circles",
+            "brep": "15 reps",
+            "bset": "3",
+            "irep": "20 reps",
+            "iset": "3",
+            "erep": "25 reps",
+            "eset": "4"
         }
     ]
 }

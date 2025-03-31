@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 function Home() {
   const navigate = useNavigate();
   const handleClick = () => {
-    // navigate('/signin')
-    navigate('/choice', {state : { field1: 'cardio', field2: 'Resistance' }})
+    navigate('/signin')
+    // navigate('/choice', {state : { field1: 'cardio', field2: 'Resistance' }})
   }
 
   return (

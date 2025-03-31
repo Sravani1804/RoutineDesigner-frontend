@@ -12,24 +12,14 @@ function MuscleComponents() {
   return (
     <center>
     <div className='divHolder'>
-      {field.map((data, index) => {
-        if(data.next !== undefined){
-          return(
+      {field && field.map((data, index) => {
+        return(
           <div className="itemHolder" key={index}>
               <div className="item">
                   <img src={data.img} alt="" />
                   <center><button onClick={() => {navigate('/exercise', {state : data.next})}} >{data.name}</button></center>
               </div>
           </div>)
-        }else{
-          return(
-            <div className="itemHolder" key={index}>
-                <div className="item">
-                    <img src={data.img} alt="" />
-                    <center><button>{data.name}</button></center>
-                </div>
-            </div>)
-        }
       })
       }
     </div>

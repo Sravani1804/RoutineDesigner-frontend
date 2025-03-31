@@ -14,13 +14,13 @@ const Login = () => {
   async function submit(e){
     e.preventDefault();
     try {
-        await axios.post('https://routinedesigner-backend.onrender.com/user/login', {
+        await axios.post('http://localhost:8000/user/login', {
             email, password
         })
         .then(res =>{
             if(res.data.message === 'exist'){ 
                 alert('Logged in successfully')    
-                navigate('/choice', {state : { field1: 'Cardio', field2: 'Resistance' }})
+                navigate('/choice', {state : { field1: 'cardio', field2: 'Resistance' }})
             }
             else{
                 alert(res.data.message)

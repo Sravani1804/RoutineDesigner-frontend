@@ -20,7 +20,7 @@ function Countdown() {
       if (totalSeconds < 0) {
         clearInterval(timer);
         setFinish(true);
-        await axios.put('https://routinedesigner-backend.onrender.com/user/exercise', {exer})
+        await axios.put('http://localhost:8000/user/exercise', {exer})
       } else {
         const newHours = Math.floor(totalSeconds / 3600);
         const newMinutes = Math.floor((totalSeconds % 3600) / 60);
@@ -40,7 +40,7 @@ function Countdown() {
       <br /><br />
       <center><div id="finish" style={{display: finish ? 'block' : 'none'}} 
       onClick={() => {navigate('/exercise', {state : data.name});}}>Finish</div></center>
-      <center><h2>Refer the Guide for sets X Reps</h2></center>
+      <center><h2>Refer the Guide for sets & Reps</h2></center>
       <img src={mexer} alt="" />
       <img src={wexer} alt="" id="wexer" />
       <Chart name={data.name} />
