@@ -23,7 +23,7 @@ function SignUp() {
   async function submit(e) {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:8000/user/register', {
+      await axios.post('https://routinedesigner-backend-we7d.onrender.com/user/register', {
         name, age, height, weight, email, password
       })
       .then(res => {

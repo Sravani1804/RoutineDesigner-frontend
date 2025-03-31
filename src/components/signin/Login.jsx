@@ -14,7 +14,7 @@ const Login = () => {
   async function submit(e){
     e.preventDefault();
     try {
-        await axios.post('http://localhost:8000/user/login', {
+        await axios.post('https://routinedesigner-backend-we7d.onrender.com/user/login', {
             email, password
         })
         .then(res =>{

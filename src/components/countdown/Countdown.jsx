@@ -20,7 +20,7 @@ function Countdown() {
       if (totalSeconds < 0) {
         clearInterval(timer);
         setFinish(true);
-        await axios.put('http://localhost:8000/user/exercise', {exer})
+        await axios.put('https://routinedesigner-backend-we7d.onrender.com/user/exercise', {exer})
       } else {
         const newHours = Math.floor(totalSeconds / 3600);
         const newMinutes = Math.floor((totalSeconds % 3600) / 60);
